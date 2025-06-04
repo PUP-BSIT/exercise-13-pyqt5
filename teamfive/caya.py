@@ -46,7 +46,7 @@ def caya_menu():
                 buffer() 
             case "5":
                 clear()
-                # Comment holder for Cordova
+                print("Hello, I admire your goal.")
                 buffer()
             case "6":
                 clear()
