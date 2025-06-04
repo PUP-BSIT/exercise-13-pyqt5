@@ -43,4 +43,3 @@ def cordova_menu():
             case _:
                 print("\nInvalid choice.")
                 buffer()
-                
