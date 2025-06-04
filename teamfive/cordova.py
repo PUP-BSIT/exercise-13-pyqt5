@@ -32,7 +32,7 @@ def cordova_menu():
                 print("Goal: Graduate")
                 buffer()
             case "3":
-                # Comment holder for Arguelles
+                print("Goodluck on your journey, Aron! Keep up the good work!")
                 buffer()
             case "4":
                 print("Keep on dreaming. Padayon!")
