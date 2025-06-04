@@ -32,13 +32,13 @@ def arguelles_menu():
                 print("To be a successful UX/UI Designer.")
                 pause()
             case "3":
-                # Print comment from Caya Placeholder
+                print("Keep on dreaming. Padayon!")
                 pause()
             case "4":
                 # Print comment from Condino Placeholder
                 pause()
             case "5":
-                # Print comment from Cordova Placeholder
+                print("Hello, I admire your goal.")
                 pause()
             case "6":
                 print("Hi, King here!")
