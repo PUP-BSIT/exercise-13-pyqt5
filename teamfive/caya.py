@@ -1,14 +1,8 @@
-import os
-
-def clear():
-    os.system("cls" if os.name == "nt" else "clear")
-    
-def buffer():
-    input("\nPress enter to continue...")
+from teamfive.utils import clear_screen, buffer
 
 def caya_menu():
     while True:
-        clear()
+        clear_screen()
         print("----------Welcome to Caya's Menu----------")
         print("1. Basic Information")
         print("2. Goals")
@@ -22,7 +16,7 @@ def caya_menu():
         
         match choice:
             case "1":
-                clear()
+                clear_screen()
                 print("----------Basic Information----------")
                 print("Name: Karl Christian M. Caya")
                 print("Age: 20 years old")
@@ -30,26 +24,26 @@ def caya_menu():
                 print("Gender: Male")
                 buffer()
             case "2":
-                clear()
+                clear_screen()
                 print("----------------------Goals----------------------")
                 print("- I want to graduate with flying colors.")
                 print("- Find a decent job that will support my family.")
                 print("- I want to travel the world.")
                 buffer()
             case "3":
-                clear()
+                clear_screen()
                 print("Goodluck on your journey, Caya!")
                 buffer()  
             case "4":
-                clear()
+                clear_screen()
                 print("May we achieve the dreams we desire.")
                 buffer() 
             case "5":
-                clear()
+                clear_screen()
                 print("Hello, I admire your goal.")
                 buffer()
             case "6":
-                clear()
+                clear_screen()
                 print("Hi, King here!")
                 buffer()    
             case "0":
