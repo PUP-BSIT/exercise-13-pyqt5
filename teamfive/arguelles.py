@@ -41,7 +41,7 @@ def arguelles_menu():
                 # Print comment from Cordova Placeholder
                 pause()
             case "6":
-                # Print comment from Gutierrez Placeholder
+                print("Hi, King here!")
                 pause()
             case "7":
                 break
