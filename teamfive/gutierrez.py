@@ -1,4 +1,4 @@
-from utils import clear_screen, buffer
+from teamfive.utils import clear_screen, buffer
 
 def gutierrez_menu():
     while True:
