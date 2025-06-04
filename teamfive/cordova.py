@@ -1,15 +1,10 @@
-import os
-
-def clear():
-    os.system("cls" if os.name == "nt" else "clear")
-
-def buffer():
-    input("\nPress Enter to return to the menu")
+from teamfive.utils import clear_screen, buffer
 
 def cordova_menu():
     while True:
-        clear()
-        print("\nBonjour (Hello)! Je suis (I am) Aron Stephen S. Cordova")
+        clear_screen()
+        print("\nBonjour! Je suis Aron Stephen S. Cordova")
+        print("Hello! I am Aron Stephen S. Cordova")
         print("\n1. About me")
         print("2. My goals")
         print("3. Comment from Arguelles")
@@ -20,7 +15,7 @@ def cordova_menu():
 
         choice = input("\nEnter your choice: ")
 
-        clear()
+        clear_screen()
 
         match choice:
             case "1":
@@ -48,4 +43,3 @@ def cordova_menu():
             case _:
                 print("\nInvalid choice.")
                 buffer()
-                
