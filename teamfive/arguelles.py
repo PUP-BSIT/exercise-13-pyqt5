@@ -48,5 +48,3 @@ def arguelles_menu():
             case _:
                 print("Invalid choice. Please try again.")
                 pause()
-                
-arguelles_menu()
