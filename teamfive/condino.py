@@ -31,7 +31,7 @@ def condino_menu():
                 print("Goal: Graduate and travel")
                 pause()
             case "3":
-                # Add Arguelles Comment
+                print("Keep up the good work, Condino!")
                 pause()
             case "4":
                 # Add Caya Comment

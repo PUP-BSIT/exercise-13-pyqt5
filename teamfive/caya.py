@@ -38,7 +38,7 @@ def caya_menu():
                 buffer()
             case "3":
                 clear()
-                # Comment holder for Arguelles
+                print("Goodluck on your journey, Caya!")
                 buffer()  
             case "4":
                 clear()
