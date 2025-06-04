@@ -40,7 +40,7 @@ def condino_menu():
                 # Add Cordova Comment
                 pause()
             case "6":
-                # Add Gutierrez Comment
+                print("Hi, King here!")
                 pause()
             case "7":
                 break
