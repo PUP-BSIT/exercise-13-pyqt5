@@ -1,5 +1,5 @@
 #Import modules from teamfive package
-#TODO (ARGUELLES): Import Module
+from teamfive.arguelles import arguelles_menu
 from teamfive.caya import caya_menu
 #TODO (CONDINO): Import Module
 from teamfive.cordova import cordova_menu
@@ -18,8 +18,7 @@ while True:
     
     match choice:
         case "1":
-            #TODO (ARGUELLES): Call the appropriate function here
-            pass
+            arguelles_menu()
         case "2":
             caya_menu()
         case "3":
