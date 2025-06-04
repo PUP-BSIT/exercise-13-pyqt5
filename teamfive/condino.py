@@ -34,7 +34,7 @@ def condino_menu():
                 print("Keep up the good work, Condino!")
                 pause()
             case "4":
-                # Add Caya Comment
+                print("Keep on dreaming. Padayon!")
                 pause()
             case "5":
                 print("Hello, I admire your goal.")
