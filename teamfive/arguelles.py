@@ -35,7 +35,7 @@ def arguelles_menu():
                 print("Keep on dreaming. Padayon!")
                 pause()
             case "4":
-                # Print comment from Condino Placeholder
+                print("May we achieve the dreams we desire.")
                 pause()
             case "5":
                 print("Hello, I admire your goal.")

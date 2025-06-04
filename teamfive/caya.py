@@ -42,7 +42,7 @@ def caya_menu():
                 buffer()  
             case "4":
                 clear()
-                # Comment holder for Condino
+                print("May we achieve the dreams we desire.")
                 buffer() 
             case "5":
                 clear()
