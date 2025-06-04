@@ -22,7 +22,7 @@ def gutierrez_menu():
                 print("Birthday: February 21, 2005")
                 pause()
             case "2":
-                print("Goal: To be successful in life and career.")
+                print("My Goal is to be successful in life and career.")
                 pause()
             case "3":
                 #Comment from Arguelles
