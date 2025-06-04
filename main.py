@@ -28,7 +28,6 @@ while True:
             pass
         case "4":
             cordova_menu()
-            pass
         case "5":
             #TODO (GUTIERREZ): Call the appropriate function here
             pass
