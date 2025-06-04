@@ -1,7 +1,7 @@
-from os import system
+import os
 
 def clear():
-    system("cls")
+    os.system("cls" if os.name == "nt" else "clear")
     
 def buffer():
     input("\nPress enter to continue...")
