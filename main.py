@@ -18,8 +18,7 @@ while True:
     
     match choice:
         case "1":
-            #TODO (ARGUELLES): Call the appropriate function here
-            pass
+            arguelles_menu()
         case "2":
             #TODO (CAYA): Call the appropriate function here
             pass
