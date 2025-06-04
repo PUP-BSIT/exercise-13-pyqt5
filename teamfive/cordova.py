@@ -35,7 +35,7 @@ def cordova_menu():
                 # Comment holder for Arguelles
                 buffer()
             case "4":
-                # Comment holder for Caya
+                print("Keep on dreaming. Padayon!")
                 buffer()
             case "5":
                 # Comment holder for Condino
