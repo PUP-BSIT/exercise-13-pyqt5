@@ -2,7 +2,7 @@
 #TODO (ARGUELLES): Import Module
 #TODO (CAYA): Import Module
 #TODO (CONDINO): Import Module
-#TODO (CORDOVA): Import Module
+from teamfive.cordova import cordova_menu
 #TODO (GUTIERREZ): Import Module
 
 while True:
@@ -27,7 +27,7 @@ while True:
             #TODO (CONDINO): Call the appropriate function here
             pass
         case "4":
-            #TODO (CORDOVA): Call the appropriate function here
+            cordova_menu()
             pass
         case "5":
             #TODO (GUTIERREZ): Call the appropriate function here
