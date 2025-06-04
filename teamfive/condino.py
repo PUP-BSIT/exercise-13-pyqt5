@@ -37,7 +37,7 @@ def condino_menu():
                 # Add Caya Comment
                 pause()
             case "5":
-                # Add Cordova Comment
+                print("Hello, I admire your goal.")
                 pause()
             case "6":
                 print("Hi, King here!")

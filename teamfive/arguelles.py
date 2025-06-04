@@ -38,7 +38,7 @@ def arguelles_menu():
                 # Print comment from Condino Placeholder
                 pause()
             case "5":
-                # Print comment from Cordova Placeholder
+                print("Hello, I admire your goal.")
                 pause()
             case "6":
                 print("Hi, King here!")
