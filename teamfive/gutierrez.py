@@ -40,6 +40,7 @@ def gutierrez_menu():
                 break   
             case _:
                 print("Invalid choice. Please try again.")
+                buffer()
             
                 
                 
