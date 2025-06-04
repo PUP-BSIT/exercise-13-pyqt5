@@ -32,7 +32,7 @@ def arguelles_menu():
                 print("To be a successful UX/UI Designer.")
                 pause()
             case "3":
-                # Print comment from Caya Placeholder
+                print("Keep on dreaming. Padayon!")
                 pause()
             case "4":
                 # Print comment from Condino Placeholder
@@ -41,7 +41,7 @@ def arguelles_menu():
                 print("Hello, I admire your goal.")
                 pause()
             case "6":
-                # Print comment from Gutierrez Placeholder
+                print("Hi, King here!")
                 pause()
             case "7":
                 break
