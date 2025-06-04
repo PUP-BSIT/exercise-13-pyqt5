@@ -1,4 +1,4 @@
-import os
+from utils import clear_screen, buffer
 
 def gutierrez_menu():
     while True:
@@ -20,31 +20,26 @@ def gutierrez_menu():
                 print("Name: King Andrei B. Gutierrez")
                 print("Age: 20")
                 print("Birthday: February 21, 2005")
-                pause()
+                buffer()
             case "2":
                 print("My Goal is to be successful in life and career.")
-                pause()
+                buffer()
             case "3":
                 print("Good luck on that, King! Hope you achieve your goals!")
-                pause()
+                buffer()
             case "4":
                 print("Keep on dreaming. Padayon!")
-                pause()
+                buffer()
             case "5":
                 print("May we achieve the dreams we desire.")
-                pause()
+                buffer()
             case "6":
                 print("Hello, I admire your goal.")
-                pause() 
+                buffer() 
             case "7":
                 break   
             case _:
                 print("Invalid choice. Please try again.")
- 
-def pause():
-    input("\nPress Enter to continue...")
-    
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')               
+            
                 
                 
