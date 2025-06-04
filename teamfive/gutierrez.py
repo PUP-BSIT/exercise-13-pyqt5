@@ -1,5 +1,4 @@
-from utils import clear_screen
-from utils import buffer
+from utils import clear_screen, buffer
 
 def gutierrez_menu():
     while True:
