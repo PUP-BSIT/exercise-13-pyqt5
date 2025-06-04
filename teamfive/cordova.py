@@ -9,7 +9,7 @@ def buffer():
 def cordova_menu():
     while True:
         clear()
-        print("\nBonjour! Je suis Aron Stephen S. Cordova")
+        print("\nBonjour (Hello)! Je suis (I am) Aron Stephen S. Cordova")
         print("\n1. About me")
         print("2. My goals")
         print("3. Comment from Arguelles")
