@@ -31,16 +31,16 @@ def condino_menu():
                 print("Goal: Graduate and travel")
                 pause()
             case "3":
-                # Add Arguelles Comment
+                print("Keep up the good work, Condino!")
                 pause()
             case "4":
                 print("Keep on dreaming. Padayon!")
                 pause()
             case "5":
-                # Add Cordova Comment
+                print("Hello, I admire your goal.")
                 pause()
             case "6":
-                # Add Gutierrez Comment
+                print("Hi, King here!")
                 pause()
             case "7":
                 break

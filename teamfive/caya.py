@@ -38,7 +38,7 @@ def caya_menu():
                 buffer()
             case "3":
                 clear()
-                # Comment holder for Arguelles
+                print("Goodluck on your journey, Caya!")
                 buffer()  
             case "4":
                 clear()
@@ -46,11 +46,11 @@ def caya_menu():
                 buffer() 
             case "5":
                 clear()
-                # Comment holder for Cordova
+                print("Hello, I admire your goal.")
                 buffer()
             case "6":
                 clear()
-                # Comment holder for Gutierrez
+                print("Hi, King here!")
                 buffer()    
             case "0":
                 break

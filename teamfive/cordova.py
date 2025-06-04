@@ -41,7 +41,7 @@ def cordova_menu():
                 # Comment holder for Condino
                 buffer()
             case "6":
-                # Comment holder for Gutierrez
+                print("Hi, King here!")
                 buffer()
             case "7":
                 break
