@@ -31,7 +31,7 @@ def gutierrez_menu():
                 print("Keep on dreaming. Padayon!")
                 pause()
             case "5":
-                #Comment from Condino
+                print("May we achieve the dreams we desire.")
                 pause()
             case "6":
                 print("Hello, I admire your goal.")

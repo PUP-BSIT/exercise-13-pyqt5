@@ -38,7 +38,7 @@ def cordova_menu():
                 print("Keep on dreaming. Padayon!")
                 buffer()
             case "5":
-                # Comment holder for Condino
+                print("May we achieve the dreams we desire.")
                 buffer()
             case "6":
                 print("Hi, King here!")
