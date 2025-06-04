@@ -1,10 +1,4 @@
-import os
-
-def pause():
-    input("\nPress any key to continue...")
-    
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
+from teamfive.utils import clear_screen, buffer
     
 def condino_menu():
     while True:
@@ -19,6 +13,7 @@ def condino_menu():
         print("7. Exit")
             
         choice = input("\nEnter your choice: ")
+        
         clear_screen()
             
         match choice:
@@ -26,22 +21,22 @@ def condino_menu():
                 print("Name: Ciara Marie Condino")
                 print("Age: 21 years old")
                 print("I love playing Grow a Garden in Roblox")
-                pause()
+                buffer()
             case "2":
                 print("Goal: Graduate and travel")
-                pause()
+                buffer()
             case "3":
                 print("Keep up the good work, Condino!")
-                pause()
+                buffer()
             case "4":
                 print("Keep on dreaming. Padayon!")
-                pause()
+                buffer()
             case "5":
                 print("Hello, I admire your goal.")
-                pause()
+                buffer()
             case "6":
                 print("Hi, King here!")
-                pause()
+                buffer()
             case "7":
                 break
             case _:
