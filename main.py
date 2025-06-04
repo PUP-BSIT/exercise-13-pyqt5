@@ -3,7 +3,7 @@ from teamfive.arguelles import arguelles_menu
 from teamfive.caya import caya_menu
 #TODO (CONDINO): Import Module
 from teamfive.cordova import cordova_menu
-#TODO (GUTIERREZ): Import Module
+from teamfive.gutierrez import gutierrez_menu
 
 while True:
     print("=== Team Member Menu ===")
@@ -27,8 +27,7 @@ while True:
         case "4":
             cordova_menu()
         case "5":
-            #TODO (GUTIERREZ): Call the appropriate function here
-            pass
+            gutierrez_menu()
         case "6":
             break   
         case _:
