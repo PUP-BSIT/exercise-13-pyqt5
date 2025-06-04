@@ -34,7 +34,7 @@ def condino_menu():
                 # Add Arguelles Comment
                 pause()
             case "4":
-                # Add Caya Comment
+                print("Keep on dreaming. Padayon!")
                 pause()
             case "5":
                 # Add Cordova Comment

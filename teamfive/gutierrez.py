@@ -28,7 +28,7 @@ def gutierrez_menu():
                 #Comment from Arguelles
                 pause()
             case "4":
-                #Comment from Caya
+                print("Keep on dreaming. Padayon!")
                 pause()
             case "5":
                 #Comment from Condino
