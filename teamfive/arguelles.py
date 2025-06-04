@@ -1,10 +1,4 @@
-import os
-
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-def pause():
-    input("\nPress Enter to continue...")
+from teamfive.utils import clear_screen, buffer
 
 def arguelles_menu():
     while True:
@@ -27,24 +21,24 @@ def arguelles_menu():
                 print("Date of Birth: December 10, 2004")
                 print("Age: 20")
                 print("Talents: Singing, Drawing")
-                pause()
+                buffer()
             case "2":
                 print("To be a successful UX/UI Designer.")
-                pause()
+                buffer()
             case "3":
                 print("Keep on dreaming. Padayon!")
-                pause()
+                buffer()
             case "4":
                 print("May we achieve the dreams we desire.")
-                pause()
+                buffer()
             case "5":
                 print("Hello, I admire your goal.")
-                pause()
+                buffer()
             case "6":
                 print("Hi, King here!")
-                pause()
+                buffer()
             case "7":
                 break
             case _:
                 print("Invalid choice. Please try again.")
-                pause()
+                buffer()
